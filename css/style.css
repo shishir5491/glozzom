@@ -1,0 +1,87 @@
+/* global css */
+
+/* header-css */
+
+.navbar-nav a{
+	margin-left: 15px;
+}
+
+.bg-dark{
+	background-color: #181819!important;
+}
+
+.carousel-inner img{
+	max-height: 400px;
+	width: 100%;
+}
+
+.image1{
+	background: url(../img/image1.jpeg) no-repeat center top;
+	background-size: cover;
+	max-height: 550px;
+}
+.images2{
+	background: url(../img/image2.jpeg) no-repeat center top;
+	background-size: cover;
+	max-height: 550px;
+}
+.images3{
+	background: url(../img/image3.jpeg) no-repeat center top;
+	background-size: cover;
+	max-height: 550px;
+}
+
+.funding .fa{
+	font-size: 60px;
+}
+
+.get-started{
+	background: url(../img/pc.jpeg) no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+.overlay{
+	background: rgba(0,0,0,0.7);
+}
+
+.bootstrap{
+	background: url(../img/people.jpeg) no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+.bootstrap .fa{
+	font-size: 45px;
+}
+
+.gallery-section img:hover{
+	transform: scale(1.1,1.1);
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+
+footer{
+	background-color: black;
+	color: white;
+}
+
+.blog-banner{
+	background: url(../img/image2.jpeg) no-repeat center top;
+	background-size: cover;
+}
+
+.contact-banner{
+	background: url(../img/image2.jpeg) no-repeat center top;
+	background-size: cover;
+}
+
+.blog-footer{
+	background-color: black;
+}
+@media(max-width: 576px){
+	.carousel-item h1{
+		font-size: 32px;
+	}
+}
